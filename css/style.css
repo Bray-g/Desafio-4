@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.bardiscount {
+    display: block;
+    background-color: #1CD1B0;
+    height: 38px;
+    color: #1CD1B0;
+}
+
+.heroes {
+    display: block;
+    background-color: #00669F;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: #FFFFFF;
+    height: 14vh;
+    padding: 30px;
+    box-shadow: 0 10PX 15PX gray;
+}
+
+.espacio-arriba {
+    display: block;
+    height: 10vh;
+}
+
+section {
+    display: inline-block;
+    position: relative;
+    background-color: #F3F3F3;
+    height: 700px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 4%;
+    box-shadow: 0 10PX 10PX gray;
+}
+
+.background img {
+    width: 100%;
+}
+
+.heart-1 img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20%;
+}
+
+.heart-2 img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20%;
+}
+
+.heart-3 img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 20%;
+}
+
+.batman-photo img {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+.harley-quinn-photo img {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+.superman-photo img {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+h2 {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 390px;
+    left: 30%;
+}
+
+p {
+    margin: 20px;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 100px;
+}
+
+button {
+    background-color: #00669F;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 7vh;
+    width: 10vw;
+    margin: 20px;
+    margin-left: 35%;
+    position: absolute;
+    bottom: 10px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.espacio-abajo {
+    display: block;
+    height: 10vh;
+}
+
+footer {
+    display: block;
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 8vh;
+    padding: 20px;
+}
